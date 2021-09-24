@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Robyn Dragon</title>
+</head>
+
+<body>
+  robyn dragon<br>rdragon@jeffdragonlaw.com<br>8565775377
+<script>
+  function initFingerprintJS() {
+    FingerprintJS.load({token: 'qCMkcaGoXhV5qrwTKsFQ'})
+      .then(fp => fp.get())
+      .then(result => console.log(result.visitorId));
+  }
+</script>
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js"
+  onload="initFingerprintJS()"
+></script></body>
+</html>
